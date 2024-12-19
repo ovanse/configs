@@ -7,7 +7,7 @@ LANG = "en_US.UTF-8"
 size = 11.00
 
 [font.normal]
-family = "Firacode Nerd Font"
+family = "FiraCode Nerd Font"
 style = "Regular"
 
 [window]
@@ -24,7 +24,7 @@ y = 15
 program = "wsl"
 args = [
         "-d",
-        "Ubuntu",
+        "Ubuntu-24.04",
         "--cd",
         "~"
 ]
