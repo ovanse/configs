@@ -16,11 +16,12 @@ dynamic_padding = true
 opacity =  0.95
 startup_mode = "Maximized"
 
-[terminal.shell]
-program = "wsl"
-args = [
-        "-d",
-        "Ubuntu-24.04",
-        "--cd",
-        "~"
-]
+# For WSL
+#[terminal.shell]
+#program = "wsl"
+#args = [
+#        "-d",
+#        "Ubuntu-24.04",
+#        "--cd",
+#        "~"
+#]
