@@ -2,10 +2,12 @@
 TERM = "xterm-256color"
 
 [font]
-size = 11.00
-
 normal.family = "FiraCode Nerd Font"
 normal.style = "Regular"
+size = 11.00
+
+[cursor]
+style.shape = "Beam"
 
 [window]
 padding.x = 15
