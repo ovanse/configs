@@ -7,14 +7,14 @@ normal.style = "Regular"
 size = 10.00
 
 [cursor]
-style.shape = "Beam" # Block|Underline|Beam
-style.blinking = "On"  # Never|Off|On|Always
+style.shape = "Beam"  # Block|Underline|Beam
+style.blinking = "Always"  # Never|Off|On|Always
 blink_interval = 500  # Cursor blinking interval in milliseconds.
 blink_timeout = 0  # Time after which cursor stops blinking, in seconds. Specifying 0 will disable timeout for blinking.
 
 [window]
-padding.x = 10
-padding.y = 10
+padding.x = 15
+padding.y = 15
 
 #decorations = "None"
 dynamic_padding = true
