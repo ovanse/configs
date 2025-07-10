@@ -4,26 +4,28 @@ TERM = "xterm-256color"
 [font]
 normal.family = "FiraCode Nerd Font"
 normal.style = "Regular"
-size = 11.00
+size = 10.00
 
 [cursor]
-style.shape = "Beam"
+style.shape = "Block" # Block|Underline|Beam
+style.blinking = "Always"  # Never|Off|On|Always
+blink_interval = 500  # milliseconds
 
 [window]
-padding.x = 15
-padding.y = 15
+padding.x = 10
+padding.y = 10
 
-decorations = "None"
+#decorations = "None"
 dynamic_padding = true
 opacity =  0.95
 startup_mode = "Maximized"
 
 # For WSL
-#[terminal.shell]
-#program = "wsl"
-#args = [
-#        "-d",
-#        "Ubuntu-24.04",
-#        "--cd",
-#        "~"
-#]
+[terminal.shell]
+program = "wsl"
+args = [
+        "-d",
+        "Ubuntu",
+        "--cd",
+        "~"
+]
