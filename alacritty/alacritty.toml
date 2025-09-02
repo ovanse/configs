@@ -13,12 +13,12 @@ blink_interval = 500  # Cursor blinking interval in milliseconds.
 blink_timeout = 0  # Time after which cursor stops blinking, in seconds. Specifying 0 will disable timeout for blinking.
 
 [window]
-padding.x = 15
-padding.y = 15
+padding.x = 10
+padding.y = 10
 
 #decorations = "None"
 dynamic_padding = true
-opacity =  0.95
+opacity =  0.85
 startup_mode = "Maximized"
 
 # For WSL
