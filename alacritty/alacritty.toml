@@ -1,45 +1,38 @@
 [env]
-TERM = "xterm-256color"
+#TERM = "xterm-256color"
 
 [font]
 size = 10.00
-
-[font.normal]
-family = "FiraCode Nerd Font"
-style = "Regular"
-
-[font.bold]
-family = "FiraCode Nerd Font"
-style = "Bold"
-
-[font.italic]
-family = "FiraCode Nerd Font"
-style = "Italic"
-
-[font.bold_italic]
-family = "FiraCode Nerd Font"
-style = "Bold Italic"
+normal.family = "FiraCode Nerd Font"
+normal.style = "Regular"
+bold.family = "FiraCode Nerd Font"
+bold.style = "Bold"
+italic.family = "FiraCode Nerd Font"
+italic.style = "Italic"
+bold_italic.family = "FiraCode Nerd Font"
+bold_italic.style = "Bold Italic"
 
 
 [cursor]
 style.shape = "Beam"  # Block|Underline|Beam
 style.blinking = "Always"  # Never|Off|On|Always
-blink_interval = 750  # Cursor blinking interval in milliseconds.
+blink_interval = 500  # Cursor blinking interval in milliseconds.
 blink_timeout = 0  # Time after which cursor stops blinking, in seconds. Specifying 0 will disable timeout for blinking.
 
 [scrolling]
 history = 10000
 multiplier = 3
 
-[selection]
-save_to_clipboard = false
+#[selection]
+#save_to_clipboard = false
 
 [window]
 padding.x = 10
 padding.y = 10
+
 #decorations = "None"
 dynamic_padding = true
-opacity =  0.85
+opacity =  0.90
 startup_mode = "Maximized"
 
 # For WSL
